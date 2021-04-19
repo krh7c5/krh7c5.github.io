@@ -1,27 +1,37 @@
 body {
-  margin: 0;
-  padding: 0;
-  font-family: 'Arial', serif;
+    background: url('background.jpg') no-repeat;
+    background-size; cover; 
+    font-family: sans-serif;
+    color: darkgrey; 
+}
+.nav ul {
+   margin: 0px;
+    padding: 0px;
+    list-style: none;    
 }
 
-.nav {
-  background-color: white;
-  color: #ffffff;
-  list-style: none;
-  text-align: center;
-  padding: 20px 0 20px 0;
+.nav ul li {
+    float: left;
+    width: 200px;
+    height: 40px;
+    background-color: black;
+    opacity: .8;
+    line-height: 40px;
+    text-align: center;
+    font-size: 20px;
+    margin-right: 5px;
 }
-  
-.nav > li {
-  display: inline-block;
-  padding-right: 50px;
+.nav ul li a {
+    text-decoration: none;
+    color: white;
+    display: block;
 }
-
-.nav > li > a {
-  text-decoration: none;
-  color: ffffff;
+.nav ul li a:hover {
+    background-color: aqua; 
 }
-
-.nav > li > a:hover {
-   color: #c1c1c1 
+.nav ul li ul li {
+    display: none;
+}
+.nav ul li:hover ul li{
+    display: block;
 }
