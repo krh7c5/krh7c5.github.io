@@ -1,7 +1,12 @@
-div {
+h1 {text-align: center;}
+
+h2 {text-align: left;}
+p1::first-letter {color: deeppink}
+
+.paragraph{
     width: 600px;
-    height: 200px;
-    padding: 10px;
+    height: 600px;
+    padding: 15px;
     border: 10px none;
-    margin: 10px auto;
+    margin: 20px auto;
 }
