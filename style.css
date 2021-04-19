@@ -1,8 +1,7 @@
 h1 {text-align: left;}
-
 h2 {text-align: left;}
 p1::first-letter {color: deeppink;}
-
+p3 {text-indent: inherit}
 .paragraph{
     width: 600px;
     height: 600px;
