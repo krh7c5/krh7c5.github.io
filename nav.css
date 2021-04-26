@@ -35,4 +35,47 @@ body {
 .nav ul li:hover ul li{
     display: block;
 }
-
+@media screen and(max-width: 800px){
+	body{
+		padding:0;
+	}
+	nav{
+		height: auto;
+		position: static;
+		ul{
+			margin-top: 0;
+			padding: 10px;
+			display: none;
+			li{
+				display: block;
+				text-align: left;
+				//text-indent: 10px;
+				width: 100%;
+				margin-left: 0;
+				font-size: 1.2em;
+				background-color: transparent;
+				>ul{
+					position: static;
+					padding-left: 30px;
+					padding-top: 0;
+					>li{
+						text-indent: 10px;
+						font-size: 1em;
+						&:hover, &.active{
+							background-color: darken($menu_Color, 10%);
+						}
+						&:last-child{
+							margin-bottom: 8px;
+						}
+						a{
+							padding-left: 0;
+						} 
+					}
+				}
+			}
+		}
+	}
+	nav a#drop{
+		display: block;
+	}
+}
