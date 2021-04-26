@@ -39,7 +39,7 @@ body {
 	body{
 		padding:0;
 	}
-	nav{
+	.nav{
 		height: auto;
 		position: static;
 		ul{
