@@ -1,8 +1,8 @@
 body{
-    h1 text-align: left;
-    h2 text-align: left;
-    p1::first-letter color: deeppink;
-    p2 text-indent: inherit;
+    text-align: left;
+    text-align: left;
+    p1::{first-letter color: deeppink;}
+    text-indent: inherit;
 }
 
 .paragraph{
