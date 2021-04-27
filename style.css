@@ -8,7 +8,7 @@ body{
 }
 header{
     background: #2656D5;
-    clip-path:polygon(0 0, 100% 0, 80% 80%, 50% 90%, 0 100%);
+    
 }
 .wrapper{
     max-width:1152px;
