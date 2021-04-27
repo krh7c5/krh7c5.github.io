@@ -1,17 +1,17 @@
 *{
     margin: 0;
     padding: 0;
-    box-styling: border-box;
-    <!--https://www.youtube.com/watch?v=fA4wpyUbp-8-->
+    box-sizing: border-box;
 }
 body{
     font-family: 'poppins, sans-serif;
 }
 header{
     background: #2656D5;
+    clip-path:polygon(0 0, 100% 0, 100% 100%, 50% 90%, 0 100%;)
 }
 .wrapper{
-    max-width:1152px
+    max-width:1152px;
     margin: 0 auto;
     padding: 0 15px;
 }
@@ -38,7 +38,7 @@ nav{
     padding-top: 15px;
 }
 .right-nav a{
-    text-decoration: none
+    text-decoration: none;
     color: #fff;
     margin-left: 15px;
     transition: all .3s ease;
@@ -80,9 +80,9 @@ h1.cusAni{
     color: #fff;
     position: relative;
     margin: 0;
-    width: 199%
+    width: 100%;
 }
-h1.cusAni​: before{
+h1.cusAni: before{
     content: attr(data-text);
     position: absolute; 
     left: 0;
@@ -93,7 +93,29 @@ h1.cusAni​: before{
     overflow: hidden;
     border-right: 2px solid;
     animation: animate 6s infinite;
-} 7.09min.sec
+} 
+@keyframes animate{
+    0%, 10%, 100%{
+        width: o;
+    }
+    50%, 70%{
+        width: 100%;
+    }
+}
 
+/*responsive css*/
 
+@media(max-width:1200px){
+    .wrapper{
+        width: 1152px;
+    }
+}
+@media(max-width:768px){
+    .wrapper{
+        width: 720px;
+    }
+    h1.cusAni{
+        font-size: 2rem; 
+    }
+}
 
