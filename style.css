@@ -4,11 +4,11 @@
     box-sizing: border-box;
 }
 body{
-    font-family: 'poppins, sans-serif;
+    font-family: 'poppins', sans-serif;
 }
 header{
     background: #2656D5;
-    clip-path:polygon(0 0, 100% 0, 100% 100%, 50% 90%, 0 100%;)
+    clip-path:polygon(0 0, 100% 0, 100% 100%, 50% 90%, 0 100%);
 }
 .wrapper{
     max-width:1152px;
@@ -82,7 +82,7 @@ h1.cusAni{
     margin: 0;
     width: 100%;
 }
-h1.cusAni: before{
+h1.cusAni:before{
     content: attr(data-text);
     position: absolute; 
     left: 0;
