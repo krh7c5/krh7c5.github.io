@@ -1,11 +1,99 @@
-h1 {text-align: left;}
-h2 {text-align: left;}
-p1::first-letter {color: deeppink;}
-p3 {text-indent: inherit;}
-.paragraph{
-    width: 600px;
-    height: 600px;
-    padding: 5px;
-    border: none;
-    
+*{
+    margin: 0;
+    padding: 0;
+    box-styling: border-box;
+    <!--https://www.youtube.com/watch?v=fA4wpyUbp-8-->
 }
+body{
+    font-family: 'poppins, sans-serif;
+}
+header{
+    background: #2656D5;
+}
+.wrapper{
+    max-width:1152px
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.logo a{
+    text-decoration: none;
+    color: #fff;
+    font-weight:900;
+    font-style: italic;
+    letter-spacing: 1px;
+}
+.logo{
+    padding-top: 15px;
+}
+nav{
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.right-nav{
+    padding-top: 15px;
+}
+.right-nav a{
+    text-decoration: none
+    color: #fff;
+    margin-left: 15px;
+    transition: all .3s ease;
+}
+.right-nav a:hover{
+    color: #3dcfd3;
+}
+.hero-left{
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: center;
+    flex: 1;
+}
+.hero-right{
+    flex: 1;
+}
+.hero-section{
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.hero-left img{
+    width: 400px;
+}
+.hero-right h2, 
+.hero-right p
+{
+    color: #fff;
+}
+h1.cusAni{
+    font-size: 4rem;
+    color: #fff;
+    position: relative;
+    margin: 0;
+    width: 199%
+}
+h1.cusAni​: before{
+    content: attr(data-text);
+    position: absolute; 
+    left: 0;
+    top: 0;
+    width: 0;
+    height: 100%;
+    color: #3dcfd3;
+    overflow: hidden;
+    border-right: 2px solid;
+    animation: animate 6s infinite;
+} 7.09min.sec
+
+
+
