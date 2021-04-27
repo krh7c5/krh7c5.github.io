@@ -1,0 +1,14 @@
+body{
+    h1 text-align: left;
+    h2 text-align: left;
+    p1::first-letter color: deeppink;
+    p2 text-indent: inherit;
+}
+
+.paragraph{
+    width: 600px;
+    height: 600px;
+    padding: 15px;
+    border: 10px none;
+    margin: 20px auto;
+}
