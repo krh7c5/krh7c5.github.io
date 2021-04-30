@@ -10,6 +10,14 @@ header{
     background: #2656D5;
     
 }
+#footer {
+    clear:both; 
+    margin-top: 20px;
+    border-top: 1px solid black;
+    padding: 20px 0px;
+    font-size: 80%;
+    text-align: center;
+}
 .wrapper{
     max-width:1152px;
     margin: 0 auto;
