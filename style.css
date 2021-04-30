@@ -127,7 +127,6 @@ h1.cusAni: before{
         box-shadow: none !important; 
         text-shadow: none !important; 
     }
-    .wrapper,
     .hero-section,
     .main-footer {
         display: none;
