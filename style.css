@@ -118,4 +118,23 @@ h1.cusAni: before{
         font-size: 2rem; 
     }
 }
-
+@media(max-wwidth: 576px){
+    .wrapper{
+        max-width: 540px;
+        flex-direction: column;
+    }
+    nav{
+        display: block;
+        text-align: center;
+    }
+    .hero-right{
+        position: absolute;
+        top: 240px; 
+        padding: 0 1rem;
+    }
+    h1.cusAni{
+        font-size: 3rem;
+    }
+}
+        
+        
