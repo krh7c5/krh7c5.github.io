@@ -5,13 +5,19 @@ body {
     color: darkgrey; 
 }
 .navul {
-    margin: 0px;
+    list-style: none;
+    text-align: left;
+    padding-bottom: 0px;
+    display: flex; 
+    flex-direction: row;
+    float: right;
+    padding: 20px;margin: 0px;
     padding: 0px;
     list-style: none;    
 }
 
-.navul li {
-    float: left;
+.navul > li {
+    float: right;
     width: 200px;
     height: 40px;
     background-color: black;
@@ -21,15 +27,15 @@ body {
     font-size: 20px;
     margin-right: 5px;
 }
-.navul li a {
+.navul > li > a {
     text-decoration: none;
     color: white;
     display: block;
 }
-.navul li a:hover {
+.navul > li > a:hover {
     background-color: aqua; 
 }
-.navul li ul li {
+.navul > li > ul > li {
     display: none;
 }
 .navul li:hover ul li{
