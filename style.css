@@ -96,7 +96,7 @@ h1.cusAni: before{
 } 
 @keyframes animate{
     0%, 10%, 100%{
-        width: o;
+        width: 0;
     }
     50%, 70%{
         width: 100%;
