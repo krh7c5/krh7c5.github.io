@@ -121,18 +121,4 @@ h1.cusAni: before{
 
 /* print style sheet*/
 
-@media print {
-    * {background: transparent !important;
-        color: #000 !important; 
-        box-shadow: none !important; 
-        text-shadow: none !important; 
-    }
-    .main-footer {
-        display: none;
-    }
-    .main-header {
-        margin-bottom: 0;
-        border: none;
-        text-align: center;
-    }
-}
+
