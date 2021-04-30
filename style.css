@@ -1,148 +1,184 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+@font-face {
+    font-family: BioRhymeBold; 
+    src: url("BioRhymeExtraBold.ttf");
 }
-body{
-    font-family: 'poppins', sans-serif;
+
+@font-face {
+    font-family: SpaceMono;
+    src: url("SpaceMonoRegular.ttf");
 }
-header{
-    background: #2656D5;
+
+@font-face {
+    font-family: BioRhymeLight;
+    src: url("BioRhymeLight.ttf");
+}
+
+@media print {
+    * {
+        background: transparent !important; 
+        color: #000 !important;
+        box-shadow: none !important;
+        text-shadow: none !important; 
+    }
     
-}
-#footer {
-    clear:both; 
-    margin-top: 20px;
-    border-top: 1px solid black;
-    padding: 20px 0px;
-    font-size: 80%;
-    text-align: center;
-}
-.wrapper{
-    max-width:1152px;
-    margin: 0 auto;
-    padding: 0 15px;
-}
-.logo a{
-    text-decoration: none;
-    color: #fff;
-    font-weight:900;
-    font-style: italic;
-    letter-spacing: 1px;
-}
-.logo{
-    padding-top: 15px;
-}
-nav{
-    display: -webkit-flex;
-    display: -moz-flex;
-    display: -ms-flex;
-    display: -o-flex;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-.right-nav{
-    padding-top: 15px;
-}
-.right-nav a{
-    text-decoration: none;
-    color: #fff;
-    margin-left: 15px;
-    transition: all .3s ease;
-}
-.right-nav a:hover{
-    color: #3dcfd3;
-}
-.hero-left{
-    display: -webkit-flex;
-    display: -moz-flex;
-    display: -ms-flex;
-    display: -o-flex;
-    display: flex;
-    justify-content: center;
-    flex: 1;
-}
-.hero-right{
-    flex: 1;
-}
-.hero-section{
-    display: -webkit-flex;
-    display: -moz-flex;
-    display: -ms-flex;
-    display: -o-flex;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-.hero-left img{
-    width: 400px;
-}
-.hero-right h2, 
-.hero-right p
-{
-    color: #fff;
-}
-h1.cusAni{
-    font-size: 4rem;
-    color: #fff;
-    position: relative;
-    margin: 0;
-    width: 100%;
-}
-h1.cusAni: before{
-    content: attr(data-text);
-    position: absolute; 
-    left: 0;
-    top: 0;
-    width: 0;
-    height: 100%;
-    color: #3dcfd3;
-    overflow: hidden;
-    border-right: 2px solid;
-    animation: animate 6s infinite;
-} 
-@keyframes animate{
-    0%, 10%, 100%{
-        width: 0;
-    }
-    50%, 70%{
-        width: 100%;
-    }
-}
-
-/*responsive css*/
-
-@media(max-width:1200px){
-    .wrapper{
-        width: 1152px;
-    }
-}
-@media(max-width:768px){
-    .wrapper{
-        width: 720px;
-    }
-    h1.cusAni{
-        font-size: 2rem; 
-    }
-}
-@media(max-wwidth: 576px){
-    .wrapper{
-        max-width: 540px;
-        flex-direction: column;
-    }
-    nav{
-        display: block;
+    .heading {
+        margin-bottom: 0;
+        border: none;
         text-align: center;
     }
-    .hero-right{
-        position: absolute;
-        top: 240px; 
-        padding: 0 1rem;
+   
+    nav {
+        display: none;
     }
-    h1.cusAni{
-        font-size: 3rem;
+    
+    @page {
+        margin: 1in;
     }
+    
+    p, ul {
+        font-size: 9pt;
+    }
+    
+    
 }
-        
-        
+
+body {
+    width: 95%;
+    margin: auto;
+}
+
+p, ul, blockquote {
+    font-family: SpaceMono;
+}
+
+.heading {
+    font-family: BioRhymeBold; 
+    color: #5A8298;
+    text-align: center;
+    padding: 15px 1.5625%;
+    width: 96.875%;
+    display: grid;
+} 
+
+main { 
+    display: grid; 
+}
+
+footer {
+    background-image: url(/islt_7310/images/plant.jpg); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: SpaceMono;
+    text-align: right;
+    padding-bottom: 20px;
+    
+}
+
+.navul {
+    grid-column: col / span 4;
+    grid-row: row ;
+    font-family: SpaceMono;
+  }
+
+.icon {
+    transition: transform 1s;
+}
+
+.icon:hover {
+    transform: scale(2);
+}
+
+/*Index Grid*/
+
+.aboutsite {
+    grid-column: col;
+    grid-row: 1; 
+    font-family: BioRhymeLight;
+}
+
+.purpose {
+    
+    grid-column: col; 
+    grid-row: 4; 
+}
+
+/*About Grid*/
+
+  .aboutme {
+    grid-column: col 2 / span 1 ;
+    grid-row: row 2 ;
+  }
+
+ .amheading {
+    grid-column: col 2 / span 1 ;
+    grid-row: row ;
+    font-family: BioRhymeLight;
+  }
+
+  .credentials {
+    grid-column: col / span 1 ;
+    grid-row: row 5;
+  }
+
+.video {
+    grid-column: col 2 / span 1;
+    grid-row: row 5;
+}
+
+  .eo {
+    grid-column: col / span 1 ;
+    grid-row: row 4 ;
+    font-family: BioRhymeLight;
+  }
+
+ .blockquote {
+    grid-column: col 2 / span 1 ;
+    grid-row: row 3 ;
+  }
+
+/*Reflection Grid*/
+
+.workscited {
+    grid-column: col;
+    grid-row: row 1;
+    text-align: center;
+    font-family: BioRhymeLight;
+}
+
+.resources {
+    grid-column: col;
+    grid-row: row 2;
+}
+
+@media only screen and (max-width: 959px) {
+     p {font-size: 1em;}
+    ul {font-size: 1em;}
+    blockquote {font-size: 1em;}
+    h1 {font-size: 2em;}
+    h2 {font-size: 1.75em}
+    h3 {font-size: 1.5em}
+    
+    
+}
+
+@media only screen and (max-width: 767px) {
+    p {font-size: .75em;}
+    ul {font-size: .75em;}
+    blockquote {font-size: .75em;}
+    h1 {font-size: 1.75em;}
+    h2 {font-size: 1.5em;}
+    h3 {font-size: 1.25em}
+    
+    
+}
+
+@media only screen and (max-width: 500px) { 
+    p {font-size: .5em;}
+    ul {font-size: .5em;}
+    blockquote {font-size: .5em;}
+    h1 {font-size: 1.5em;}
+    h2 {font-size: 1.25em;}
+    h3 {font-size: 1em}
+    
+    
+}
