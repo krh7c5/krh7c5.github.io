@@ -4,13 +4,13 @@ body {
     font-family: sans-serif;
     color: darkgrey; 
 }
-.nav ul {
+.navul {
     margin: 0px;
     padding: 0px;
     list-style: none;    
 }
 
-.nav ul li {
+.navul li {
     float: left;
     width: 200px;
     height: 40px;
@@ -21,18 +21,18 @@ body {
     font-size: 20px;
     margin-right: 5px;
 }
-.nav ul li a {
+.navul li a {
     text-decoration: none;
     color: white;
     display: block;
 }
-.nav ul li a:hover {
+.navul li a:hover {
     background-color: aqua; 
 }
-.nav ul li ul li {
+.navul li ul li {
     display: none;
 }
-.nav ul li:hover ul li{
+.navul li:hover ul li{
     display: block;
 }
 
