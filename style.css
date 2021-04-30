@@ -65,7 +65,7 @@ main {
 }
 
 footer {
-    background-image: url(/islt_7310/images/backfooter.jpg); 
+    background-image: url(backfooter.jpg); 
     background-size: cover;
     background-repeat: no-repeat;
     font-family: SpaceMono;
@@ -74,7 +74,7 @@ footer {
     
 }
 
-.navul {
+.nav {
     grid-column: col / span 4;
     grid-row: row ;
     font-family: SpaceMono;
