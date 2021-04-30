@@ -4,11 +4,11 @@
     box-sizing: border-box;
 }
 body{
-    font-family: 'poppins', sans-serif;
+    font-family: 'poppins, sans-serif;
 }
 header{
     background: #2656D5;
-    
+    clip-path:polygon(0 0, 100% 0, 100% 100%, 50% 90%, 0 100%;)
 }
 .wrapper{
     max-width:1152px;
@@ -82,7 +82,7 @@ h1.cusAni{
     margin: 0;
     width: 100%;
 }
-h1.cusAni:before{
+h1.cusAni: before{
     content: attr(data-text);
     position: absolute; 
     left: 0;
@@ -96,7 +96,7 @@ h1.cusAni:before{
 } 
 @keyframes animate{
     0%, 10%, 100%{
-        width: 0;
+        width: o;
     }
     50%, 70%{
         width: 100%;
@@ -116,5 +116,25 @@ h1.cusAni:before{
     }
     h1.cusAni{
         font-size: 2rem; 
+    }
+}
+
+/* print style sheet*/
+
+@media print {
+    * {background: transparent !important;
+        color: #000 !important; 
+        box-shadow: none !important; 
+        text-shadow: none !important; 
+    }
+    .wrapper,
+    .hero-section,
+    .main-footer {
+        display: none;
+    }
+    .main-header {
+        margin-bottom: 0;
+        border: none;
+        text-align: center;
     }
 }
