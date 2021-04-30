@@ -120,7 +120,7 @@ footer {
     grid-row: row 5;
   }
 
-.video {
+.iframe-container {
     grid-column: col 2 / span 1;
     grid-row: row 5;
 }
