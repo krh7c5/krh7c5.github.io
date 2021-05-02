@@ -52,7 +52,7 @@ p, ul, blockquote {
 }
 
 .heading {
-    font-family: BioRhymeBold; 
+    font-family: sans-serif; 
     color: #FFFFFF;
     text-align: center;
     padding: 15px 1.5625%;
@@ -113,7 +113,7 @@ footer {
  .amheading {
     grid-column: col 2 / span 1 ;
     grid-row: row ;
-    font-family: BioRhymeLight;
+    font-family: sans-serif;
   }
 
   .credentials {
@@ -153,7 +153,8 @@ footer {
 .observationheading {
     grid-column: col;
     grid-row: row;
-    font-family: BioRhymeLight;
+    font-family: sans-serif;
+    color: darkgrey;
 }
 
 .iframe-container obs {
@@ -183,7 +184,8 @@ footer {
 .graphheading {
     grid-column: col;
     grid-row: row 3;
-    font-family: BioRhymeLight;
+    font-family: sans-serif;
+    color: darkgrey;
 }
 
 .iframe-container gr {
@@ -212,7 +214,8 @@ footer {
 .cejheading {
     grid-column: col;
     grid-row: row 5;
-    font-family: BioRhymeLight;
+    font-family: sans-serif;
+    color: darkgrey;
 }
 
 .iframe-container cej {
