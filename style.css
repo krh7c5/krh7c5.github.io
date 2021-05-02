@@ -65,10 +65,10 @@ main {
 }
 
 footer {
-    background-image: url(backfooter.jpg); 
+    background-image: url(Footer-Background.png); 
     background-size: cover;
     background-repeat: no-repeat;
-    font-family: SpaceMono;
+    font-family: Sanserif;
     text-align: right;
     padding-bottom: 20px;
     
@@ -77,7 +77,7 @@ footer {
 .nav {
     grid-column: col / span 4;
     grid-row: row ;
-    font-family: SpaceMono;
+    font-family: Serif;
   }
 
 .icon {
