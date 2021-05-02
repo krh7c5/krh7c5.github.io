@@ -168,7 +168,7 @@ footer {
     padding: 50px;
     max-width: 65%;
     height: auto;
-    grid-column: col;
+    grid-column: col1;
     grid-row: row 2;
 }
 .iframe-container{
@@ -192,14 +192,14 @@ footer {
 }
 
 .graphheading {
-    grid-column: col;
+    grid-column: col1;
     grid-row: row 3;
     font-family: RobertSlab;
     color: darkgrey;
 }
 
 .iframe-container gr {
-    grid-column: col;
+    grid-column: col1;
     grid-row: row 4;
 }
 .iframe-container{
@@ -222,14 +222,14 @@ footer {
 }
 
 .cejheading {
-    grid-column: col;
+    grid-column: col1;
     grid-row: row 5;
     font-family: RobertSlab;
     color: darkgrey;
 }
 
 .iframe-container cej {
-    grid-column: col;
+    grid-column: col1;
     grid-row: row 6;
 }
 .iframe-container{
