@@ -149,6 +149,83 @@ footer {
     grid-row: row 3 ;
   }
 
+/*Learn Grid*/
+.zoneheading {
+    grid-column: col;
+    grid-row: row;
+    font-family: BioRhymeLight;
+}
+
+.zoneimage {
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-bottom: 25px;
+    padding: 50px;
+    max-width: 65%;
+    height: auto;
+    grid-column: col; 
+    grid-row: row 2;
+}
+
+.zonep {
+    grid-column: col 2;
+    grid-row: row 2;
+}
+
+.siftheading {
+    grid-column: col;
+    grid-row: row 3;
+    font-family: BioRhymeLight;
+}
+
+.siftimage {
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-bottom: 25px;
+    padding: 50px;
+    max-width: 65%;
+    height: auto;
+    grid-column: col; 
+    grid-row: row 4;
+}
+
+.siftp {
+    grid-column: col 2;
+    grid-row: row 4;
+}
+
+.searchheading {
+    grid-column: col;
+    grid-row: row 5;
+    font-family: BioRhymeLight;
+}
+
+.searchimage {
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-bottom: 25px;
+    padding: 50px;
+    max-width: 65%;
+    height: auto;
+    grid-column: col; 
+    grid-row: row 6;
+}
+
+.searchp {
+    grid-column: col 2;
+    grid-row: row 6;
+}
+
+.searchvid {
+    max-width: 75%; 
+    height: auto;
+    margin: 50px;
+    padding: 50px;
+    grid-column: col;
+    grid-row: row 7;
+}
+
+
 /*Reflection Grid*/
 
 .workscited {
