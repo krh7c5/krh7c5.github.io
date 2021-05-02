@@ -155,8 +155,8 @@ footer {
 
 /*Learn Grid*/
 .observationheading {
-    grid-column: col;
-    grid-row: row;
+    grid-column: col1;
+    grid-row: row1;
     font-family: RobertSlab;
     color: darkgrey;
 }
