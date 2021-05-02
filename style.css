@@ -47,7 +47,11 @@ body {
     margin: auto;
 }
 
-p, ul, blockquote {
+p, ul {
+    font-family: sans-serif;
+}
+
+blockquote {
     font-family: SpaceMono;
 }
 
