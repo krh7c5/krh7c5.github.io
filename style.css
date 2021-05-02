@@ -167,7 +167,7 @@ footer {
     grid-row: row 2;
 }
 
-.zonep {
+.observationp {
     grid-column: col 2;
     grid-row: row 2;
 }
@@ -189,7 +189,7 @@ footer {
     grid-row: row 4;
 }
 
-.siftp {
+.graphingp {
     grid-column: col 2;
     grid-row: row 4;
 }
@@ -211,7 +211,7 @@ footer {
     grid-row: row 6;
 }
 
-.searchp {
+.cejp {
     grid-column: col 2;
     grid-row: row 6;
 }
