@@ -150,13 +150,13 @@ footer {
   }
 
 /*Learn Grid*/
-.zoneheading {
+.observationheading {
     grid-column: col;
     grid-row: row;
     font-family: BioRhymeLight;
 }
 
-.zoneimage {
+.iframe-container obs {
     margin-right: 50px;
     margin-left: 50px;
     margin-bottom: 25px;
@@ -164,7 +164,7 @@ footer {
     max-width: 65%;
     height: auto;
     grid-column: col; 
-    grid-row: row 2;
+    grid-row: row 5;
 }
 
 .observationp {
@@ -172,13 +172,13 @@ footer {
     grid-row: row 2;
 }
 
-.siftheading {
+.graphheading {
     grid-column: col;
     grid-row: row 3;
     font-family: BioRhymeLight;
 }
 
-.siftimage {
+.iframe-container gr {
     margin-right: 50px;
     margin-left: 50px;
     margin-bottom: 25px;
@@ -194,13 +194,13 @@ footer {
     grid-row: row 4;
 }
 
-.searchheading {
+.cejheading {
     grid-column: col;
     grid-row: row 5;
     font-family: BioRhymeLight;
 }
 
-.searchimage {
+.iframe-container cej {
     margin-right: 50px;
     margin-left: 50px;
     margin-bottom: 25px;
