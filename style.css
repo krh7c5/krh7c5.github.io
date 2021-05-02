@@ -157,15 +157,23 @@ footer {
 }
 
 .iframe-container obs {
-    margin-right: 50px;
-    margin-left: 50px;
-    margin-bottom: 25px;
-    padding: 50px;
-    max-width: 65%;
-    height: auto;
-    grid-column: col; 
-    grid-row: row 5;
+    grid-column: col;
+    grid-row: row 2;
 }
+.iframe-container{
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%; 
+  height: 0;
+}
+.iframe-container iframe{
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
 
 .observationp {
     grid-column: col 2;
@@ -179,14 +187,21 @@ footer {
 }
 
 .iframe-container gr {
-    margin-right: 50px;
-    margin-left: 50px;
-    margin-bottom: 25px;
-    padding: 50px;
-    max-width: 65%;
-    height: auto;
-    grid-column: col; 
+    grid-column: col;
     grid-row: row 4;
+}
+.iframe-container{
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%; 
+  height: 0;
+}
+.iframe-container iframe{
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
 .graphingp {
@@ -201,14 +216,21 @@ footer {
 }
 
 .iframe-container cej {
-    margin-right: 50px;
-    margin-left: 50px;
-    margin-bottom: 25px;
-    padding: 50px;
-    max-width: 65%;
-    height: auto;
-    grid-column: col; 
+    grid-column: col;
     grid-row: row 6;
+}
+.iframe-container{
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%; 
+  height: 0;
+}
+.iframe-container iframe{
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
 .cejp {
