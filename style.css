@@ -216,14 +216,6 @@ footer {
     grid-row: row 6;
 }
 
-.searchvid {
-    max-width: 75%; 
-    height: auto;
-    margin: 50px;
-    padding: 50px;
-    grid-column: col;
-    grid-row: row 7;
-}
 
 
 /*Reflection Grid*/
