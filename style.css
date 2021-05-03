@@ -127,7 +127,7 @@ footer {
   }
 .aboutme {
     grid-column: col 2 / span 1 ;
-    grid-row: row ;
+    grid-row: row 2 ;
   }
 
 .credentials {
