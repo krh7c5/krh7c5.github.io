@@ -116,7 +116,7 @@ footer {
         padding: 2px;
         max-width: 45%;
         height: auto;
-        grid-column: col; 
+        grid-column: col / span 1 ; 
         grid-row: row 1;
 } 
 
@@ -137,7 +137,7 @@ footer {
   }
 
 .iframe-container {
-    grid-column: col 2 / span 1;
+    grid-column: col 2 / span 1 ;
     grid-row: row 5;
 }
 .iframe-container{
@@ -198,7 +198,7 @@ footer {
 
 
 .observationp {
-    grid-column: col 2 / span 1;
+    grid-column: col 2 / span 1 ;
     grid-row: row 2;
 }
 
@@ -211,7 +211,7 @@ footer {
 
 .iframe-container gr {
     float:left;
-    grid-column: col / span 1;
+    grid-column: col / span 1 ;
     grid-row: row 4;
 }
 .iframe-container{
@@ -229,7 +229,7 @@ footer {
 }
 
 .graphingp {
-    grid-column: col 2;
+    grid-column: col 2 ;
     grid-row: row 4;
 }
 
@@ -241,7 +241,7 @@ footer {
 }
 
 .iframe-container cej {
-    grid-column: col / span 1;
+    grid-column: col / span 1 ;
     grid-row: row 6;
 }
 .iframe-container{
@@ -259,7 +259,7 @@ footer {
 }
 
 .cejp {
-    grid-column: col 2;
+    grid-column: col 2 ;
     grid-row: row 6;
 }
 
