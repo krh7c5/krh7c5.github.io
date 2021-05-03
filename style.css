@@ -166,8 +166,8 @@ footer {
 
 /*Learn Grid*/
 .observationheading {
-    grid-column: col1;
-    grid-row: row1;
+    grid-column: col;
+    grid-row: row;
     font-family: RobertSlab;
     color: darkgrey;
 }
@@ -179,8 +179,8 @@ footer {
     padding: 50px;
     max-width: 65%;
     height: auto;
-    grid-column: col1;
-    grid-row: row 2;
+    grid-column: col / span 1;
+    grid-row: row;
 }
 .iframe-container{
   position: relative;
@@ -198,12 +198,12 @@ footer {
 
 
 .observationp {
-    grid-column: col 2;
+    grid-column: col 2 / span 1;
     grid-row: row 2;
 }
 
 .graphheading {
-    grid-column: col1;
+    grid-column: col;
     grid-row: row 3;
     font-family: RobertSlab;
     color: darkgrey;
@@ -211,7 +211,7 @@ footer {
 
 .iframe-container gr {
     float:left;
-    grid-column: col1;
+    grid-column: col / span 1;
     grid-row: row 4;
 }
 .iframe-container{
@@ -234,14 +234,14 @@ footer {
 }
 
 .cejheading {
-    grid-column: col1;
+    grid-column: col;
     grid-row: row 5;
     font-family: RobertSlab;
     color: darkgrey;
 }
 
 .iframe-container cej {
-    grid-column: col1;
+    grid-column: col / span 1;
     grid-row: row 6;
 }
 .iframe-container{
