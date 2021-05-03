@@ -165,10 +165,8 @@ footer {
 
 /*Learn Grid*/
 .observationheading {
-    grid-column: col;
+    grid-column: col / span1;
     grid-row: row;
-    font-family: RobertSlab;
-    color: darkgrey;
 }
 
 .iframe-container obs {
