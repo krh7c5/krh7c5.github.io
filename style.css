@@ -109,7 +109,18 @@ footer {
 
 /*About Grid*/
 
-  .aboutme {
+ .aboutheadshot {
+        margin-right: 50px;
+        margin-left: 50px;
+        margin-bottom: 25px;
+        padding: 50px;
+        max-width: 65%;
+        height: auto;
+        grid-column: col; 
+        grid-row: row 2;
+} 
+
+.aboutme {
     grid-column: col 2 / span 1 ;
     grid-row: row 2 ;
   }
