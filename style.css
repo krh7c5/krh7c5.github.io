@@ -199,6 +199,7 @@ footer {
 }
 
 .iframe-container gr {
+    float:left;
     grid-column: col1;
     grid-row: row 4;
 }
