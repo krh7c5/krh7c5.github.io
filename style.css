@@ -129,7 +129,7 @@ footer {
 
  .amheading {
     grid-column: col 2 / span 1 ;
-    grid-row: row ;
+    grid-row: row;
     font-family: sans-serif;
   }
 
