@@ -112,14 +112,14 @@ footer {
 /*About Grid*/
 
  .aboutheadshot {
-        margin-right: 2px;
-        margin-left: 2px;
-        margin-bottom: 2px;
-        padding: 2px;
-        max-width: 45%;
+        margin-right: 50px;
+        margin-left: 50px;
+        margin-bottom: 25px;
+        padding: 50px;
+        max-width: 50%;
         height: auto;
-        grid-column: col / span 1 ; 
-        grid-row: row 1;
+        grid-column: col; 
+        grid-row: row 2;
 } 
 
  .amheading {
