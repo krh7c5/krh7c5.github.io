@@ -86,6 +86,8 @@ footer {
   }
 
 .icon {
+    width: 25px;
+    height: 25px;
     transition: transform 1s;
 }
 
