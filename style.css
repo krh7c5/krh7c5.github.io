@@ -222,12 +222,12 @@ footer {
 }
 
 .graphingp {
-    grid-column: col 2 ;
+    grid-column: col 2 / span 1 ;
     grid-row: row 4;
 }
 
 .cejheading {
-    grid-column: col;
+    grid-column: col / span 1;
     grid-row: row 5;
     font-family: RobertSlab;
     color: darkgrey;
@@ -252,7 +252,7 @@ footer {
 }
 
 .cejp {
-    grid-column: col 2 ;
+    grid-column: col 2 / span 1 ;
     grid-row: row 6;
 }
 
