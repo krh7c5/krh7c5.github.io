@@ -120,18 +120,17 @@ footer {
         grid-row: row 1;
 } 
 
-.aboutme {
-    grid-column: col 2 / span 1 ;
-    grid-row: row 2 ;
-  }
-
  .amheading {
     grid-column: col 2 / span 1 ;
     grid-row: row ;
     font-family: sans-serif;
   }
+.aboutme {
+    grid-column: col 2 / span 1 ;
+    grid-row: row ;
+  }
 
-  .credentials {
+.credentials {
     grid-column: col / span 1 ;
     grid-row: row 5;
   }
