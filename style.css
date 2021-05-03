@@ -158,13 +158,18 @@ footer {
 
 /*Learn Grid*/
 .observationheading {
-    grid-column: col / span1;
+    grid-column: col 
     grid-row: row;
+    font-family: SpaceMono;
 }
 
-.iframe-container obs {
-    grid-column: col / span 1;
-    grid-row: row;
+.observation {
+    max-width: 75%; 
+    height: auto;
+    margin: 50px;
+    padding: 50px;
+    grid-column: col;
+    grid-row: row 2;
 }
 
 .graphheading {
