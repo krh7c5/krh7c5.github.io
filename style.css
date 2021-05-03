@@ -173,12 +173,6 @@ footer {
 }
 
 .iframe-container obs {
-    margin-right: 50px;
-    margin-left: 50px;
-    margin-bottom: 25px;
-    padding: 50px;
-    max-width: 65%;
-    height: auto;
     grid-column: col / span 1;
     grid-row: row;
 }
@@ -210,7 +204,6 @@ footer {
 }
 
 .iframe-container gr {
-    float:left;
     grid-column: col / span 1 ;
     grid-row: row 4;
 }
