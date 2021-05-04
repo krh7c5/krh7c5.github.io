@@ -124,7 +124,7 @@ footer {
 
 .aboutme {
     grid-column: col 2 / span 1 ;
-    grid-row: row 2 ;
+    grid-row: row 2;
   }
 
  .amheading {
@@ -217,7 +217,7 @@ footer {
     grid-column: col 2;
     grid-row: row 6;
 }
-
+/*contact Grid*/
 
 
 /*Reflection Grid*/
