@@ -173,7 +173,7 @@ footer {
 }
 .observationp {
     grid-column: col 2;
-    grid-row: 2;
+    grid-row: row 2;
     }
     
 .graphheading {
