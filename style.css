@@ -219,14 +219,25 @@ footer {
 }
 /*contact Grid*/
 
-table, th, td {
-  border: 1px solid black;
-  text-align: center;
- }
-
-th, td {
-  padding: 15px;
+table {
+    border-collapse: collapse;
 }
+    
+table th {
+    text-align: center;
+    bacgground-color: #3e6070
+        Color: #FFF
+        padding: 4px 30px 4px 8px
+}
+
+table td {
+    border: 1px solid black;
+    padding: 15px;
+}
+    
+table tr: nth-child(odd)td {
+    background-color #e7edf0;
+    }
     
     
 /*Reflection Grid*/
