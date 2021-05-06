@@ -236,12 +236,12 @@ table th {
         padding: 4px 30px 4px 8px
 }
 
-table td {
+td {
     border: 1px solid black;
     padding: 15px;
 }
     
-table tr: nth-child(odd)td {
+tr: nth-child(odd) {
     background-color #e7edf0;
     }
     
