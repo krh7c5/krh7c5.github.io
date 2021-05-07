@@ -352,3 +352,16 @@ form{
 #message{
   width: 300px;
 }
+
+	.pwrapper{
+        display: flex;
+        flex-direction: column;
+        margin: 10px;
+    }
+
+    .ptext{
+        font-size: 14pt;
+        margin-left: 5px; 
+        margin-right: 5px;
+        margin-top: -70px;
+    }
