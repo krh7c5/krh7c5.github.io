@@ -308,7 +308,8 @@ button{
     grid-column: col;
     grid-row: row 2;
 }
-
+/*Responsive Media*/
+	
 @media only screen and (max-width: 959px) {
      p {font-size: 1em;}
     ul {font-size: 1em;}
@@ -337,7 +338,17 @@ button{
     blockquote {font-size: .5em;}
     h1 {font-size: 1.5em;}
     h2 {font-size: 1.25em;}
-    h3 {font-size: 1em}
+    h3 {font-size: 1em}    
+}
+
+form{
+  width: 300px; 
+}
     
+#firstname, #lastname, #email{
+  width: 300px;
+}
     
+#message{
+  width: 300px;
 }
