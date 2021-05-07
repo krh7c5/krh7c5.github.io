@@ -353,13 +353,13 @@ form{
   width: 300px;
 }
 
-	.pwrapper{
+.pwrapper{
         display: flex;
         flex-direction: column;
         margin: 10px;
     }
 
-    .ptext{
+.ptext{
         font-size: 14pt;
         margin-left: 5px; 
         margin-right: 5px;
