@@ -220,25 +220,79 @@ footer {
 }
 /*contact Grid*/
 
-table {
-    border-collapse: collapse;
+.cwrapper{
+    display: grid;
+	grid-template-columns: 2% repeat(3, 1fr) 2%;
+	grid-template-rows: 70px 70px 1fr 70px; 
+	grid-gap: 16px;   
 }
-    
-table th {
-    text-align: center;
-    bacgground-color: #3e6070
-        Color: #FFF
-        padding: 4px 30px 4px 8px
+.cbaseline{
+    background-color: black;
+    grid-row: 4/ 5;
+    grid-column: 1 / 6; 
+    display: grid; 
+    align-self: center; 
+    width: 100%; 
 }
 
-td {
-    border: 1px solid black;
-    padding: 15px;
-}
-    
-tr: nth-child(odd) {
-    background-color #e7edf0;
+.ctitle{
+    grid-row: 2/ 3; 
+    grid-column: 1 / 6;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    font-family: 'Quicksand', sans-serif;
     }
+
+#contact{
+    color:black;
+    background-color: #88e7b6;
+    padding: 10px 10px 10px 10px;
+    margin: auto; 
+    position: relative;
+    top: 20px;
+    }
+
+form{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16pt;
+    font-weight: bold; 
+    width: 500px; 
+    grid-row: 3 / 4;
+    grid-column: 2 / 5;
+    justify-self: center; 
+    padding: 30px; 
+
+}
+
+#firstname, #lastname, #email{
+    width: 500px;
+    height: 30px; 
+    font-size: 14pt;
+    font-family: 'Open Sans', sans-serif;
+    border: solid 2px; 
+    padding: 5px; 
+}
+
+#message{
+    width: 500px;
+    height: 200px; 
+    font-size: 14pt;
+    font-family: 'Open Sans', sans-serif;
+    border: solid 2px;
+    padding: 5px; 
+}
+
+button{
+    width: 100px;
+    font-size: 16pt;
+    font-family: 'Open Sans', sans-serif;
+    margin: 10px; 
+    background-color:#187ab3;
+    color: white; 
+}
+
     
     
 /*Reflection Grid*/
