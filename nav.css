@@ -2,6 +2,7 @@
 body {
         background: url('background.jpg') no-repeat;
                 background-size: cover; 
+       color: darkgrey;
                 
     }
 .nav ul {
