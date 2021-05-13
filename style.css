@@ -102,6 +102,7 @@ footer {
     grid-column: col;
     grid-row: 1; 
     font-family: BioRhymeLight;
+    color: darkgrey;
 }
 
 .ptable {
