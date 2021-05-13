@@ -104,6 +104,38 @@ footer {
     font-family: BioRhymeLight;
 }
 
+.ptable {
+    grid-column: col 1;
+    grid-row: row 4;
+    font-family: SpaceMono;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+.ptable tbody tr:nth-child(even) {
+    background-color: #F5B261;
+}
+
+.ptable tbody tr:nth-child(odd) {
+    background-color: #9CC3D9;
+}
+
+.ptable thead {
+    background-color: #fff;
+}
+
+table, thead, th, td {
+     border: 1px solid black;
+}
+
+thead, td {
+    padding: 15px;
+}
+
+thead {
+    text-align: center;
+}
+
 .purpose {
     
     grid-column: col; 
