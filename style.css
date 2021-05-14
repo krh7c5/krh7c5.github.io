@@ -107,7 +107,8 @@ footer {
 }
 
 .ptable {
-    
+    grid-column: col 1;
+    grid-row: row 5;
     font-family: SpaceMono;
 color: black;
     margin-right: 50px;
