@@ -247,7 +247,10 @@ thead {
   position: relative;
   width: 60%;
   overflow: hidden;
-  padding-top: 40%; /* 4:3 Aspect Ratio */
+  padding-top: 40%; 
+	grid-column: col;
+	grid-row: row 7;
+	
 }
 
 .cejp {
