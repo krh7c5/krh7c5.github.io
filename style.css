@@ -214,7 +214,48 @@ thead {
     grid-column: col 2;
     grid-row: row 2;
     }
-    
+
+.graphheading {
+    grid-column: col;
+    grid-row: row 3;
+    font-family: RobertSlab;
+    color: darkgrey;
+}
+
+.graphvid {
+    max-width: 75%; 
+    height: auto;
+    margin: 50px;
+    padding: 50px;
+    grid-column: col;
+    grid-row: row 4;
+
+
+.graphingp {
+    grid-column: col 2;
+    grid-row: row 4;
+}
+
+.cejheading {
+    grid-column: col;
+    grid-row: row 5;
+    font-family: RobertSlab;
+    color: darkgrey;
+}
+
+.cejvid {
+    max-width: 75%; 
+    height: auto;
+    margin: 50px;
+    padding: 50px;
+    grid-column: col;
+    grid-row: row 6;
+
+
+.cejp {
+    grid-column: col 2;
+    grid-row: row 6;
+}
 
 /*contact Grid*/
 
