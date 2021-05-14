@@ -243,15 +243,6 @@ thead {
     color: darkgrey;
 }
 
-.graphvid {
-    max-width: 75%; 
-    height: auto;
-    margin: 50px;
-    padding: 50px;
-    grid-column: col;
-    grid-row: row 6;
-}
-
 .cejp {
     grid-column: col 2;
     grid-row: row 6;
