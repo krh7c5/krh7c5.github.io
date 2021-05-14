@@ -202,11 +202,13 @@ thead {
 }
 
 .observationvid {
-    max-width: 75%; 
-    height: auto;
-    margin: 50px;
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-bottom: 25px;
     padding: 50px;
-    grid-column: col;
+    max-width: 55%;
+    height: auto;
+    grid-column: col; 
     grid-row: row 2;
 }
 
@@ -223,12 +225,14 @@ thead {
 }
 
 .graphvid {
-    max-width: 75%; 
-    height: auto;
-    margin: 50px;
+   margin-right: 50px;
+    margin-left: 50px;
+    margin-bottom: 25px;
     padding: 50px;
-    grid-column: col;
-    grid-row: row 4;
+    max-width: 55%;
+    height: auto;
+    grid-column: col; 
+    grid-row: row 5;
 }
 
 .graphingp {
