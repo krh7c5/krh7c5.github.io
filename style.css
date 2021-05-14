@@ -211,13 +211,13 @@ thead {
 }
 
 .observationp {
-    grid-column: col 2;
-    grid-row: row 2;
+    grid-column: col;
+    grid-row: row 3;
     }
 
 .graphheading {
     grid-column: col;
-    grid-row: row 3;
+    grid-row: row 4;
     font-family: RobertSlab;
     color: darkgrey;
 }
@@ -228,17 +228,17 @@ thead {
     margin: 50px;
     padding: 50px;
     grid-column: col;
-    grid-row: row 4;
+    grid-row: row 5;
 
 
 .graphingp {
-    grid-column: col 2;
-    grid-row: row 4;
+    grid-column: col;
+    grid-row: row 6;
 }
 
 .cejheading {
     grid-column: col;
-    grid-row: row 5;
+    grid-row: row 7;
     font-family: RobertSlab;
     color: darkgrey;
 }
@@ -249,12 +249,12 @@ thead {
     margin: 50px;
     padding: 50px;
     grid-column: col;
-    grid-row: row 6;
+    grid-row: row 8;
 
 
 .cejp {
-    grid-column: col 2;
-    grid-row: row 6;
+    grid-column: col;
+    grid-row: row 9;
 }
 
 /*contact Grid*/
