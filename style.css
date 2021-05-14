@@ -198,10 +198,10 @@ thead {
 .observationheading {
     grid-column: col; 
     grid-row: row;
-    font-family: SpaceMono;
+    font-family: RobertSlab;
 }
 
-.observation {
+.observationvid {
     max-width: 75%; 
     height: auto;
     margin: 50px;
