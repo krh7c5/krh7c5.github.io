@@ -209,6 +209,7 @@ thead {
     grid-column: col;
     grid-row: row 2;
 }
+
 .observationp {
     grid-column: col 2;
     grid-row: row 2;
@@ -228,7 +229,7 @@ thead {
     padding: 50px;
     grid-column: col;
     grid-row: row 4;
-
+}
 
 .graphingp {
     grid-column: col 2;
@@ -249,12 +250,13 @@ thead {
     padding: 50px;
     grid-column: col;
     grid-row: row 6;
-
+}
 
 .cejp {
     grid-column: col 2;
     grid-row: row 6;
 }
+
 /*contact Grid*/
 
 .cwrapper{
@@ -263,6 +265,7 @@ thead {
 	grid-template-rows: 70px 70px 1fr 70px; 
 	grid-gap: 16px;   
 }
+
 .cbaseline{
     background-color: black;
     grid-row: 4/ 5;
