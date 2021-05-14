@@ -181,7 +181,7 @@ thead {
     margin: 50px;
     padding: 50px;
 
-  .edov {
+  .educationoverview {
     grid-column: col / span 1 ;
     grid-row: row 4 ;
     font-family: BioRhymeLight;
