@@ -173,6 +173,7 @@ thead {
     grid-column: col / span 1 ;
     grid-row: row 5;
   }
+
 .video {
     grid-column: col 2;
     grid-row: row 5;
@@ -180,6 +181,7 @@ thead {
     height: auto;
     margin: 50px;
     padding: 50px;
+}
 
   .educationoverview {
     grid-column: col / span 1 ;
